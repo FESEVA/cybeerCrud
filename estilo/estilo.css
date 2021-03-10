@@ -389,8 +389,20 @@
     display: inline-block;
 }
 
+#namecollapse {
+    position: absolute;
+    right: 0;
+}
+
+#namecollapse img {
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+}
+
 .bye {
     display: inline-block;
+    margin-top: 10px;
 }
 
 @media (min-width: 830px) and (max-width: 1200px) {
@@ -409,7 +421,12 @@
     }
     #namecollapse {
         position: absolute;
-        right: -260px;
+        right: 0;
+    }
+    #namecollapse img {
+        position: absolute;
+        right: 0;
+        margin-right: 50px;
     }
     #collapseExample1 {
         width: 40vw;
@@ -471,7 +488,12 @@
     }
     #namecollapse {
         position: absolute;
-        right: -260px;
+        right: 0;
+    }
+    #namecollapse img {
+        position: absolute;
+        right: 0;
+        margin-right: 50px;
     }
     #collapseExample1 {
         width: 40vw;

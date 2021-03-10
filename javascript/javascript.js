@@ -17,8 +17,13 @@
 function w3_open() {
     var element = document.getElementById("content2-Pantalladeingreso").style.marginLeft;
     var element2 = document.getElementById("buttonAction").getAttribute("aria-expanded")
-    if (element2 == "false") {
+    var widthWindow = $(window).width();
+    if (element2 == "false" && widthWindow > 830) {
         document.getElementById("content2-Pantalladeingreso").style.marginLeft = "325px";
+        document.getElementById("content2-Pantalladeingreso").style.marginTop = "20px";
+        document.getElementById("content2-Pantalladeingreso").style.transition = "1s";
+    } else if (element2 == "false" && widthWindow < 830) {
+        document.getElementById("content2-Pantalladeingreso").style.marginLeft = "42vw";
         document.getElementById("content2-Pantalladeingreso").style.marginTop = "20px";
         document.getElementById("content2-Pantalladeingreso").style.transition = "1s";
     } else {
