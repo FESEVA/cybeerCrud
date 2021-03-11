@@ -39,3 +39,6 @@ function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
     document.getElementById("openNav").style.display = "inline-block";
 }
+
+b() && ($("section.top").css("width", "150%"),
+    $("footer").css("width", "150%"));

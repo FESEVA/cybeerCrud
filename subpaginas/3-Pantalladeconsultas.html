@@ -14,12 +14,12 @@
     <link rel="stylesheet" href="../estilo/estilo.css">
     <script src="../javascript/javascript.js"></script>
     <link rel="icon" href="../imagen/favicon.png" type="image/png" />
-    <title>2 - Pantalla de ingreso</title>
+    <title>3 - Pantalla de consultas</title>
 </head>
 
 <body id="body2-Pantalladeingreso">
 
-    <div id="topnav">
+    <div style="z-index: 99;" id="topnav">
         <div id="profilename">
             <img class="bye" style=" margin-top: 15px;margin-right: 10px; width: 20px;" src="../imagen/bell.png" alt=logotopnav>
             <img class="bye" style=" margin-top: 15px;margin-right: 10px; width: 20px;" src="../imagen/chat.png" alt=logotopnav>
@@ -43,10 +43,10 @@
             <div style="height : calc(100vh - 80px); background-color: #753c81; border-color: transparent;" class="card card-body">
                 <div id="collapsecontent">
                     <a href="">
-                        <h4 class="h4design"><img class="iconBar" src="../imagen/area.png" alt=logotopnav>Area personal</h4>
+                        <h4 class="h4design"><img class="iconBar" src="../imagen/area.png" alt=logotopnav><a href="../subpaginas/2-Pantalladeingreso.html">Inicio</a></h4>
                     </a>
                     <a href="">
-                        <h4 class="h4design"><img class="iconBar" src="../imagen/home.png" alt=logotopnav>Inicio del sitio</h4>
+                        <h4 class="h4design"><img class="iconBar" src="../imagen/home.png" alt=logotopnav><a href="../subpaginas/3-Pantalladeconsultas.html">Consultas</a></h4>
                     </a>
                     <a href=""></a>
                     <a href="">
@@ -78,88 +78,296 @@
         </div>
     </div>
 
-
-
-
-
     <div id="content2-Pantalladeingreso">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus aut repellat, provident quaerat dolorem aspernatur, alias earum quo sed aliquid velit quidem laudantium expedita repellendus! Officia repudiandae iste reprehenderit fugiat? Esse
-            tempore corporis quia, quos consectetur fugiat, possimus molestiae molestias delectus ducimus impedit magni amet quo inventore pariatur minus nesciunt dolore. Veniam porro dolor officiis, laudantium cupiditate officia deserunt est. Molestiae
-            error voluptas consequatur repudiandae deleniti vero reiciendis animi consequuntur rerum incidunt soluta unde necessitatibus nisi hic blanditiis, qui natus maxime illo nam numquam tenetur. Aut cupiditate nostrum illum nobis. Aliquid labore
-            suscipit, dolor fugiat aspernatur voluptates iusto nemo recusandae inventore nam officia vitae ratione aut harum possimus! Pariatur eligendi assumenda facere consequuntur ut voluptates, sit laudantium accusantium aliquid earum! Cupiditate,
-            consectetur hic? Minus maxime, libero vitae cum atque quo neque, ab maiores laboriosam illo perferendis. Harum amet omnis, est possimus magni ex odit officiis veniam distinctio. Corrupti, corporis minus! Obcaecati doloribus nihil praesentium
-            accusantium officiis deserunt a fugiat, distinctio consequatur excepturi, quas corporis. Blanditiis officia eligendi, nostrum dignissimos tempore minima similique dolor recusandae, amet, veritatis asperiores fuga nobis quis. Architecto officia,
-            totam eos accusantium, excepturi cumque libero iure quaerat, quo voluptas voluptatum aut corporis aperiam molestias facilis sint dolore perspiciatis quam numquam? Quisquam incidunt saepe dolores nobis quia facilis. Ipsam fugiat recusandae
-            aspernatur exercitationem iure, hic consectetur aliquid aliquam, tempora quidem obcaecati commodi porro dolore ut? Atque vitae quaerat, exercitationem beatae quasi fugiat ratione voluptatibus, quidem natus nihil nulla. Ab incidunt mollitia
-            ut non numquam, vitae nisi corrupti asperiores pariatur voluptatum blanditiis soluta sint iste. Temporibus tenetur autem incidunt quam dignissimos optio in et enim non veritatis? Ullam, porro! Dolor neque, ab modi excepturi provident ducimus,
-            nisi minus aperiam quisquam quibusdam error corrupti aliquam quaerat iste tempore? Repellat ducimus nostrum deserunt maiores nesciunt libero quasi modi laborum quam quibusdam.</p>
+        <div id="divForm">
+            <!-- CONSULTAS -->
+            <h2>Consultas</h2>
+            <form>
+                <div class="form-row align-items-center">
+                    <div class="col-auto">
+                        <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">@</div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                        </div>
+                    </div>
 
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus aut repellat, provident quaerat dolorem aspernatur, alias earum quo sed aliquid velit quidem laudantium expedita repellendus! Officia repudiandae iste reprehenderit fugiat? Esse
-            tempore corporis quia, quos consectetur fugiat, possimus molestiae molestias delectus ducimus impedit magni amet quo inventore pariatur minus nesciunt dolore. Veniam porro dolor officiis, laudantium cupiditate officia deserunt est. Molestiae
-            error voluptas consequatur repudiandae deleniti vero reiciendis animi consequuntur rerum incidunt soluta unde necessitatibus nisi hic blanditiis, qui natus maxime illo nam numquam tenetur. Aut cupiditate nostrum illum nobis. Aliquid labore
-            suscipit, dolor fugiat aspernatur voluptates iusto nemo recusandae inventore nam officia vitae ratione aut harum possimus! Pariatur eligendi assumenda facere consequuntur ut voluptates, sit laudantium accusantium aliquid earum! Cupiditate,
-            consectetur hic? Minus maxime, libero vitae cum atque quo neque, ab maiores laboriosam illo perferendis. Harum amet omnis, est possimus magni ex odit officiis veniam distinctio. Corrupti, corporis minus! Obcaecati doloribus nihil praesentium
-            accusantium officiis deserunt a fugiat, distinctio consequatur excepturi, quas corporis. Blanditiis officia eligendi, nostrum dignissimos tempore minima similique dolor recusandae, amet, veritatis asperiores fuga nobis quis. Architecto officia,
-            totam eos accusantium, excepturi cumque libero iure quaerat, quo voluptas voluptatum aut corporis aperiam molestias facilis sint dolore perspiciatis quam numquam? Quisquam incidunt saepe dolores nobis quia facilis. Ipsam fugiat recusandae
-            aspernatur exercitationem iure, hic consectetur aliquid aliquam, tempora quidem obcaecati commodi porro dolore ut? Atque vitae quaerat, exercitationem beatae quasi fugiat ratione voluptatibus, quidem natus nihil nulla. Ab incidunt mollitia
-            ut non numquam, vitae nisi corrupti asperiores pariatur voluptatum blanditiis soluta sint iste. Temporibus tenetur autem incidunt quam dignissimos optio in et enim non veritatis? Ullam, porro! Dolor neque, ab modi excepturi provident ducimus,
-            nisi minus aperiam quisquam quibusdam error corrupti aliquam quaerat iste tempore? Repellat ducimus nostrum deserunt maiores nesciunt libero quasi modi laborum quam quibusdam.</p>
+                    <div class="col-auto">
+                        <label class="sr-only" for="inlineFormInput"></label>
+                        <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Rank">
+                    </div>
+                    <div class="col-auto">
+                        <label class="sr-only" for="inlineFormInput"></label>
+                        <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Email">
+                    </div>
+                </div>
+                <div>
+                    <select id="inputState" class="form-control">
+                  <option selected>Masculino</option>
+                  <option>Femenino</option>
+                  <option>Otro</option>
+                </select>
+                </div>
+            </form>
 
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus aut repellat, provident quaerat dolorem aspernatur, alias earum quo sed aliquid velit quidem laudantium expedita repellendus! Officia repudiandae iste reprehenderit fugiat? Esse
-            tempore corporis quia, quos consectetur fugiat, possimus molestiae molestias delectus ducimus impedit magni amet quo inventore pariatur minus nesciunt dolore. Veniam porro dolor officiis, laudantium cupiditate officia deserunt est. Molestiae
-            error voluptas consequatur repudiandae deleniti vero reiciendis animi consequuntur rerum incidunt soluta unde necessitatibus nisi hic blanditiis, qui natus maxime illo nam numquam tenetur. Aut cupiditate nostrum illum nobis. Aliquid labore
-            suscipit, dolor fugiat aspernatur voluptates iusto nemo recusandae inventore nam officia vitae ratione aut harum possimus! Pariatur eligendi assumenda facere consequuntur ut voluptates, sit laudantium accusantium aliquid earum! Cupiditate,
-            consectetur hic? Minus maxime, libero vitae cum atque quo neque, ab maiores laboriosam illo perferendis. Harum amet omnis, est possimus magni ex odit officiis veniam distinctio. Corrupti, corporis minus! Obcaecati doloribus nihil praesentium
-            accusantium officiis deserunt a fugiat, distinctio consequatur excepturi, quas corporis. Blanditiis officia eligendi, nostrum dignissimos tempore minima similique dolor recusandae, amet, veritatis asperiores fuga nobis quis. Architecto officia,
-            totam eos accusantium, excepturi cumque libero iure quaerat, quo voluptas voluptatum aut corporis aperiam molestias facilis sint dolore perspiciatis quam numquam? Quisquam incidunt saepe dolores nobis quia facilis. Ipsam fugiat recusandae
-            aspernatur exercitationem iure, hic consectetur aliquid aliquam, tempora quidem obcaecati commodi porro dolore ut? Atque vitae quaerat, exercitationem beatae quasi fugiat ratione voluptatibus, quidem natus nihil nulla. Ab incidunt mollitia
-            ut non numquam, vitae nisi corrupti asperiores pariatur voluptatum blanditiis soluta sint iste. Temporibus tenetur autem incidunt quam dignissimos optio in et enim non veritatis? Ullam, porro! Dolor neque, ab modi excepturi provident ducimus,
-            nisi minus aperiam quisquam quibusdam error corrupti aliquam quaerat iste tempore? Repellat ducimus nostrum deserunt maiores nesciunt libero quasi modi laborum quam quibusdam.</p>
+            <textarea style="width: 100%; margin-top: 10px;"> Escribe en SQL.
+                </textarea>
+            <!-- BOTON PARA CONSULTAS -->
+            <button style="margin-top: 10px;" type="button" class="btn btn-warning">Hacer consulta</button>
+        </div>
 
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus aut repellat, provident quaerat dolorem aspernatur, alias earum quo sed aliquid velit quidem laudantium expedita repellendus! Officia repudiandae iste reprehenderit fugiat? Esse
-            tempore corporis quia, quos consectetur fugiat, possimus molestiae molestias delectus ducimus impedit magni amet quo inventore pariatur minus nesciunt dolore. Veniam porro dolor officiis, laudantium cupiditate officia deserunt est. Molestiae
-            error voluptas consequatur repudiandae deleniti vero reiciendis animi consequuntur rerum incidunt soluta unde necessitatibus nisi hic blanditiis, qui natus maxime illo nam numquam tenetur. Aut cupiditate nostrum illum nobis. Aliquid labore
-            suscipit, dolor fugiat aspernatur voluptates iusto nemo recusandae inventore nam officia vitae ratione aut harum possimus! Pariatur eligendi assumenda facere consequuntur ut voluptates, sit laudantium accusantium aliquid earum! Cupiditate,
-            consectetur hic? Minus maxime, libero vitae cum atque quo neque, ab maiores laboriosam illo perferendis. Harum amet omnis, est possimus magni ex odit officiis veniam distinctio. Corrupti, corporis minus! Obcaecati doloribus nihil praesentium
-            accusantium officiis deserunt a fugiat, distinctio consequatur excepturi, quas corporis. Blanditiis officia eligendi, nostrum dignissimos tempore minima similique dolor recusandae, amet, veritatis asperiores fuga nobis quis. Architecto officia,
-            totam eos accusantium, excepturi cumque libero iure quaerat, quo voluptas voluptatum aut corporis aperiam molestias facilis sint dolore perspiciatis quam numquam? Quisquam incidunt saepe dolores nobis quia facilis. Ipsam fugiat recusandae
-            aspernatur exercitationem iure, hic consectetur aliquid aliquam, tempora quidem obcaecati commodi porro dolore ut? Atque vitae quaerat, exercitationem beatae quasi fugiat ratione voluptatibus, quidem natus nihil nulla. Ab incidunt mollitia
-            ut non numquam, vitae nisi corrupti asperiores pariatur voluptatum blanditiis soluta sint iste. Temporibus tenetur autem incidunt quam dignissimos optio in et enim non veritatis? Ullam, porro! Dolor neque, ab modi excepturi provident ducimus,
-            nisi minus aperiam quisquam quibusdam error corrupti aliquam quaerat iste tempore? Repellat ducimus nostrum deserunt maiores nesciunt libero quasi modi laborum quam quibusdam.</p>
+        <!-- BOTON PARA DAR DE ALTA A UN USUARIO -->
+        <button style="margin-bottom: 20px;" type="button" class="btn btn-light" data-toggle="modal" data-target="#modalAlta">Dar de alta a un nuevo usuario</button>
 
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus aut repellat, provident quaerat dolorem aspernatur, alias earum quo sed aliquid velit quidem laudantium expedita repellendus! Officia repudiandae iste reprehenderit fugiat? Esse
-            tempore corporis quia, quos consectetur fugiat, possimus molestiae molestias delectus ducimus impedit magni amet quo inventore pariatur minus nesciunt dolore. Veniam porro dolor officiis, laudantium cupiditate officia deserunt est. Molestiae
-            error voluptas consequatur repudiandae deleniti vero reiciendis animi consequuntur rerum incidunt soluta unde necessitatibus nisi hic blanditiis, qui natus maxime illo nam numquam tenetur. Aut cupiditate nostrum illum nobis. Aliquid labore
-            suscipit, dolor fugiat aspernatur voluptates iusto nemo recusandae inventore nam officia vitae ratione aut harum possimus! Pariatur eligendi assumenda facere consequuntur ut voluptates, sit laudantium accusantium aliquid earum! Cupiditate,
-            consectetur hic? Minus maxime, libero vitae cum atque quo neque, ab maiores laboriosam illo perferendis. Harum amet omnis, est possimus magni ex odit officiis veniam distinctio. Corrupti, corporis minus! Obcaecati doloribus nihil praesentium
-            accusantium officiis deserunt a fugiat, distinctio consequatur excepturi, quas corporis. Blanditiis officia eligendi, nostrum dignissimos tempore minima similique dolor recusandae, amet, veritatis asperiores fuga nobis quis. Architecto officia,
-            totam eos accusantium, excepturi cumque libero iure quaerat, quo voluptas voluptatum aut corporis aperiam molestias facilis sint dolore perspiciatis quam numquam? Quisquam incidunt saepe dolores nobis quia facilis. Ipsam fugiat recusandae
-            aspernatur exercitationem iure, hic consectetur aliquid aliquam, tempora quidem obcaecati commodi porro dolore ut? Atque vitae quaerat, exercitationem beatae quasi fugiat ratione voluptatibus, quidem natus nihil nulla. Ab incidunt mollitia
-            ut non numquam, vitae nisi corrupti asperiores pariatur voluptatum blanditiis soluta sint iste. Temporibus tenetur autem incidunt quam dignissimos optio in et enim non veritatis? Ullam, porro! Dolor neque, ab modi excepturi provident ducimus,
-            nisi minus aperiam quisquam quibusdam error corrupti aliquam quaerat iste tempore? Repellat ducimus nostrum deserunt maiores nesciunt libero quasi modi laborum quam quibusdam.</p>
 
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus aut repellat, provident quaerat dolorem aspernatur, alias earum quo sed aliquid velit quidem laudantium expedita repellendus! Officia repudiandae iste reprehenderit fugiat? Esse
-            tempore corporis quia, quos consectetur fugiat, possimus molestiae molestias delectus ducimus impedit magni amet quo inventore pariatur minus nesciunt dolore. Veniam porro dolor officiis, laudantium cupiditate officia deserunt est. Molestiae
-            error voluptas consequatur repudiandae deleniti vero reiciendis animi consequuntur rerum incidunt soluta unde necessitatibus nisi hic blanditiis, qui natus maxime illo nam numquam tenetur. Aut cupiditate nostrum illum nobis. Aliquid labore
-            suscipit, dolor fugiat aspernatur voluptates iusto nemo recusandae inventore nam officia vitae ratione aut harum possimus! Pariatur eligendi assumenda facere consequuntur ut voluptates, sit laudantium accusantium aliquid earum! Cupiditate,
-            consectetur hic? Minus maxime, libero vitae cum atque quo neque, ab maiores laboriosam illo perferendis. Harum amet omnis, est possimus magni ex odit officiis veniam distinctio. Corrupti, corporis minus! Obcaecati doloribus nihil praesentium
-            accusantium officiis deserunt a fugiat, distinctio consequatur excepturi, quas corporis. Blanditiis officia eligendi, nostrum dignissimos tempore minima similique dolor recusandae, amet, veritatis asperiores fuga nobis quis. Architecto officia,
-            totam eos accusantium, excepturi cumque libero iure quaerat, quo voluptas voluptatum aut corporis aperiam molestias facilis sint dolore perspiciatis quam numquam? Quisquam incidunt saepe dolores nobis quia facilis. Ipsam fugiat recusandae
-            aspernatur exercitationem iure, hic consectetur aliquid aliquam, tempora quidem obcaecati commodi porro dolore ut? Atque vitae quaerat, exercitationem beatae quasi fugiat ratione voluptatibus, quidem natus nihil nulla. Ab incidunt mollitia
-            ut non numquam, vitae nisi corrupti asperiores pariatur voluptatum blanditiis soluta sint iste. Temporibus tenetur autem incidunt quam dignissimos optio in et enim non veritatis? Ullam, porro! Dolor neque, ab modi excepturi provident ducimus,
-            nisi minus aperiam quisquam quibusdam error corrupti aliquam quaerat iste tempore? Repellat ducimus nostrum deserunt maiores nesciunt libero quasi modi laborum quam quibusdam.</p>
+        <!-- Tabla de DATOS DE LOS USUARIOS -->
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr class="table-warning">
+                        <th scope="col">🡠</th>
+                        <th scope="col">T</th>
+                        <th scope="col">🡢</th>
+                        <th scope="col">User ID</th>
+                        <th scope="col">User Name</th>
+                        <th scope="col">Rank</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-light">
 
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus aut repellat, provident quaerat dolorem aspernatur, alias earum quo sed aliquid velit quidem laudantium expedita repellendus! Officia repudiandae iste reprehenderit fugiat? Esse
-            tempore corporis quia, quos consectetur fugiat, possimus molestiae molestias delectus ducimus impedit magni amet quo inventore pariatur minus nesciunt dolore. Veniam porro dolor officiis, laudantium cupiditate officia deserunt est. Molestiae
-            error voluptas consequatur repudiandae deleniti vero reiciendis animi consequuntur rerum incidunt soluta unde necessitatibus nisi hic blanditiis, qui natus maxime illo nam numquam tenetur. Aut cupiditate nostrum illum nobis. Aliquid labore
-            suscipit, dolor fugiat aspernatur voluptates iusto nemo recusandae inventore nam officia vitae ratione aut harum possimus! Pariatur eligendi assumenda facere consequuntur ut voluptates, sit laudantium accusantium aliquid earum! Cupiditate,
-            consectetur hic? Minus maxime, libero vitae cum atque quo neque, ab maiores laboriosam illo perferendis. Harum amet omnis, est possimus magni ex odit officiis veniam distinctio. Corrupti, corporis minus! Obcaecati doloribus nihil praesentium
-            accusantium officiis deserunt a fugiat, distinctio consequatur excepturi, quas corporis. Blanditiis officia eligendi, nostrum dignissimos tempore minima similique dolor recusandae, amet, veritatis asperiores fuga nobis quis. Architecto officia,
-            totam eos accusantium, excepturi cumque libero iure quaerat, quo voluptas voluptatum aut corporis aperiam molestias facilis sint dolore perspiciatis quam numquam? Quisquam incidunt saepe dolores nobis quia facilis. Ipsam fugiat recusandae
-            aspernatur exercitationem iure, hic consectetur aliquid aliquam, tempora quidem obcaecati commodi porro dolore ut? Atque vitae quaerat, exercitationem beatae quasi fugiat ratione voluptatibus, quidem natus nihil nulla. Ab incidunt mollitia
-            ut non numquam, vitae nisi corrupti asperiores pariatur voluptatum blanditiis soluta sint iste. Temporibus tenetur autem incidunt quam dignissimos optio in et enim non veritatis? Ullam, porro! Dolor neque, ab modi excepturi provident ducimus,
-            nisi minus aperiam quisquam quibusdam error corrupti aliquam quaerat iste tempore? Repellat ducimus nostrum deserunt maiores nesciunt libero quasi modi laborum quam quibusdam.</p>
+                        <td><label><input type="checkbox"></label></td>
+                        <td>
+                            <a style="text-decoration: none; color: black;" data-toggle="modal" data-target="#modalModify" href="#modalModify"><img class="iconBar" src="../imagen/edit.png" alt=logotopnav></a>
+                        </td>
+                        <td>
+                            <a style="text-decoration: none; color: black;" data-toggle="modal" data-target="#modalDelete" href="#modalDelete"><img class="iconBar" src="../imagen/delete.png" alt=logotopnav></a>
+                        </td>
+                        <th scope="row">1</th>
+                        <td>Feseva</td>
+                        <td>Global</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td><label><input type="checkbox"></label></td>
+                        <td>
+                            <a style="text-decoration: none; color: black;" data-toggle="modal" data-target="#modalModify" href="#modalModify"><img class="iconBar" src="../imagen/edit.png" alt=logotopnav></a>
+                        </td>
+                        <td>
+                            <a style="text-decoration: none; color: black;" data-toggle="modal" data-target="#modalDelete" href="#modalDelete"><img class="iconBar" src="../imagen/delete.png" alt=logotopnav></a>
+                        </td>
+                        <th scope="row">2</th>
+                        <td>Gonxza</td>
+                        <td>Nova 3</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td><label><input type="checkbox"></label></td>
+                        <td>
+                            <a style="text-decoration: none; color: black;" data-toggle="modal" data-target="#modalModify" href="#modalModify"><img class="iconBar" src="../imagen/edit.png" alt=logotopnav></a>
+                        </td>
+                        <td>
+                            <a style="text-decoration: none; color: black;" data-toggle="modal" data-target="#modalDelete" href="#modalDelete"><img class="iconBar" src="../imagen/delete.png" alt=logotopnav></a>
+                        </td>
+                        <th scope="row">3</th>
+                        <td>Noel</td>
+                        <td>Nova 4</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td><label><input type="checkbox"></label></td>
+                        <td>
+                            <a style="text-decoration: none; color: black;" data-toggle="modal" data-target="#modalModify" href="#modalModify"><img class="iconBar" src="../imagen/edit.png" alt=logotopnav></a>
+                        </td>
+                        <td>
+                            <a style="text-decoration: none; color: black;" data-toggle="modal" data-target="#modalDelete" href="#modalDelete"><img class="iconBar" src="../imagen/delete.png" alt=logotopnav></a>
+                        </td>
+                        <th scope="row">4</th>
+                        <td>Anuel</td>
+                        <td>Plata 1</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td><label><input type="checkbox"></label></td>
+                        <td>
+                            <a style="text-decoration: none; color: black;" data-toggle="modal" data-target="#modalModify" href="#modalModify"><img class="iconBar" src="../imagen/edit.png" alt=logotopnav></a>
+                        </td>
+                        <td>
+                            <a style="text-decoration: none; color: black;" data-toggle="modal" data-target="#modalDelete" href="#modalDelete"><img class="iconBar" src="../imagen/delete.png" alt=logotopnav></a>
+                        </td>
+                        <th scope="row">5</th>
+                        <td>Jairo</td>
+                        <td>Unranked</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td><label><input type="checkbox"></label></td>
+                        <td>
+                            <a style="text-decoration: none; color: black;" data-toggle="modal" data-target="#modalModify" href="#modalModify"><img class="iconBar" src="../imagen/edit.png" alt=logotopnav></a>
+                        </td>
+                        <td>
+                            <a style="text-decoration: none; color: black;" data-toggle="modal" data-target="#modalDelete" href="#modalDelete"><img class="iconBar" src="../imagen/delete.png" alt=logotopnav></a>
+                        </td>
+                        <th scope="row">6</th>
+                        <td>Marcos</td>
+                        <td>Madera 1</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td><label><input type="checkbox"></label></td>
+                        <td>
+                            <a style="text-decoration: none; color: black;" data-toggle="modal" data-target="#modalModify" href="#modalModify"><img class="iconBar" src="../imagen/edit.png" alt=logotopnav></a>
+                        </td>
+                        <td>
+                            <a style="text-decoration: none; color: black;" data-toggle="modal" data-target="#modalDelete" href="#modalDelete"><img class="iconBar" src="../imagen/delete.png" alt=logotopnav></a>
+                        </td>
+                        <th scope="row">7</th>
+                        <td>Varo</td>
+                        <td>Global</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td><label><input type="checkbox"></label></td>
+                        <td>
+                            <a style="text-decoration: none; color: black;" data-toggle="modal" data-target="#modalModify" href="#modalModify"><img class="iconBar" src="../imagen/edit.png" alt=logotopnav></a>
+                        </td>
+                        <td>
+                            <a style="text-decoration: none; color: black;" data-toggle="modal" data-target="#modalDelete" href="#modalDelete"><img class="iconBar" src="../imagen/delete.png" alt=logotopnav></a>
+                        </td>
+                        <th scope="row">8</th>
+                        <td>Ander</td>
+                        <td>Global</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <!--  ALTA Modal -->
+        <div class="modal fade" id="modalAlta" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Alta de usuario</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-row align-items-center">
+                                <div style="width: 100%;" class="col-auto">
+                                    <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">@</div>
+                                        </div>
+                                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <label class="sr-only" for="inlineFormInput"></label>
+                                    <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Password">
+                                </div>
+
+                                <div class="col-auto">
+                                    <label class="sr-only" for="inlineFormInput"></label>
+                                    <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Rank">
+                                </div>
+                                <div style="width: 100%;" class="col-auto">
+                                    <label class="sr-only" for="inlineFormInput"></label>
+                                    <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Email">
+                                </div>
+                            </div>
+                            <div>
+                                <select id="inputState" class="form-control">
+                              <option selected>Masculino</option>
+                              <option>Femenino</option>
+                              <option>Otro</option>
+                            </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-success">Dar de alta</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  MODIFY Modal -->
+        <div class="modal fade" id="modalModify" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Modificar usuario</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-row align-items-center">
+                                <div style="width: 100%;" class="col-auto">
+                                    <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">@</div>
+                                        </div>
+                                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <label class="sr-only" for="inlineFormInput"></label>
+                                    <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Password">
+                                    <!-- Este apartado se modificara en el futuro -->
+                                </div>
+
+                                <div class="col-auto">
+                                    <label class="sr-only" for="inlineFormInput"></label>
+                                    <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Rank">
+                                </div>
+                                <div style="width: 100%;" class="col-auto">
+                                    <label class="sr-only" for="inlineFormInput"></label>
+                                    <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Email">
+                                </div>
+                            </div>
+                            <div>
+                                <select id="inputState" class="form-control">
+                              <option selected>Masculino</option>
+                              <option>Femenino</option>
+                              <option>Otro</option>
+                            </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-info">Modificar usuario</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <!-- DELETE Modal -->
+    <div class="modal fade" id="modalDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Borrar usuario</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    ¿Estas seguro de borrar al usuario selecionado?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-danger">Borrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 
 

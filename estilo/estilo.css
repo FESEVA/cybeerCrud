@@ -365,7 +365,6 @@
 
 #collapsecontent a:hover {
     text-decoration: none;
-    background-color: rgb(4, 2, 7);
     color: black;
     text-shadow: -.25px -.25px 0 black, .25px .25px black;
 }
@@ -465,7 +464,6 @@
     }
     #collapsecontent a:hover {
         text-decoration: none;
-        background-color: rgb(4, 2, 7);
         color: black;
         text-shadow: -.25px -.25px 0 black, .25px .25px black;
     }
@@ -538,7 +536,6 @@
     }
     #collapsecontent a:hover {
         text-decoration: none;
-        background-color: rgb(4, 2, 7);
         color: black;
         text-shadow: -.25px -.25px 0 black, .25px .25px black;
     }
@@ -572,3 +569,35 @@
 
 
 /*****************************************************************************3 - Pantalla de ingreso *******************************************************************************/
+
+#divForm {
+    border: rgb(231, 219, 219) solid 3px;
+    padding: 2%;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+
+/* #divTable {
+    border: red solid 3px;
+    width: fit-content;
+} */
+
+@media (min-width: 830px) and (max-width: 1200px) {
+    /*TABLET*/
+}
+
+@media (max-width: 830px) {
+    /*MOVIL*/
+    /* #divTable {
+        border: red solid 3px;
+        width: fit-content;
+        font-size: smaller;
+        position: relative;
+        z-index: 50;
+    } */
+}
+
+@media (max-height: 670px) and (max-width: 320px) {
+    /*MOVIL PEQUEÑISIMO*/
+}
